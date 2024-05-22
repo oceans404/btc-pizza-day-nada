@@ -1,0 +1,16 @@
+---
+program: determine_pizza_count
+inputs:
+  secrets:
+    lukas_pieces:
+      SecretInteger: '1'
+    steph_pieces:
+      SecretInteger: '2'
+    charlie_pieces:
+      SecretInteger: '5'
+  public_variables: {}
+expected_outputs:
+  total_pizzas:
+    SecretInteger: '1'
+  leftover_slices:
+    SecretInteger: '0'

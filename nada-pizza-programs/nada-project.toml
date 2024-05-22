@@ -1,0 +1,12 @@
+name = "nada"
+version = "0.1.0"
+authors = [""]
+
+[[programs]]
+path = "src/main.py"
+prime_size = 128
+
+[[programs]]
+path = "src/determine_pizza_count.py"
+name = "determine_pizza_count"
+prime_size = 128
